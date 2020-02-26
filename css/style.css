@@ -65,14 +65,15 @@ h2.big {
   color: white;
 }
 
-.w-50 {
-  width: 50%;
-}
-
 .col-3 {
   float: left;
   width: calc(100% / 3);
   padding: 0 2%;
+}
+
+
+.w-50 {
+  width: 50%;
 }
 
 .float-left {
@@ -209,9 +210,22 @@ h2.big {
 
 /* Plan */
 #plan {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
+
+#plan a{
+  color: blue;
+}
+
+#plan p{
+  padding-bottom: 20px;
+}
+
+#plan div{
+  padding: 50px 80px 50px 80px;
+}
+
 
 /* Help */
 #help {
@@ -219,6 +233,7 @@ h2.big {
   bottom: 0;
   right: 15%;
 }
+
 #help a {
   display: inline-block;
   padding: 10px;
@@ -229,4 +244,20 @@ h2.big {
   border-radius: 5px 5px 0 0;
 }
 
-/* Structure styles here*/
+#structure{
+  padding: 40px 20px 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#structure h3{
+  font-size: 120%;
+  display: inline-block;
+  margin: 0px 15px 0px 0px;
+}
+
+#structure span{
+  font-size: 120%;
+  border-bottom: 1px solid;
+  margin-right: 30px;
+}
